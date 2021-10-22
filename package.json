@@ -3,22 +3,22 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://popingalov.github.io/filmoteka-dementors-group/",
+  "homepage": "https://vitaliiprykhodko.github.io/my-filmoteka-dementors-group/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka-dementors-group/",
+    "build": "parcel build src/*.html --public-url /my-filmoteka-dementors-group/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://popingalov.github.io/filmoteka-dementors-group.git"
+    "url": "git+https://vitaliiprykhodko.github.io/my-filmoteka-dementors-group.git"
   },
   "keywords": [],
   "author": "dementors-group-company",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/popingalov/js-hw-13-image-finder/issues"
+    "url": "https://github.com/VitaliiPrykhodko/my-filmoteka-dementors-group/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
