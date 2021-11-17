@@ -38,6 +38,7 @@ function navClick(e) {
   /*  e.preventDefault(); */
   console.dir(e.target.textContent);
   if (e.target.textContent == 'Home') {
+    refs.catBtn.classList.remove('hiddenBtn')
     refs.header.classList.remove('library');
     refs.libraryWrapper.classList.add('visually-hidden');
     refs.libraryBtn.classList.remove('current');
@@ -53,6 +54,7 @@ function navClick(e) {
   }
   if (e.target.textContent == 'My library') {
     watchedBtnClick();
+    refs.catBtn.classList.add('hiddenBtn')
     refs.header.classList.add('library');
     refs.libraryWrapper.classList.remove('visually-hidden');
     refs.libraryBtn.classList.add('current');

@@ -28,6 +28,7 @@ export default {
   categoriesButton: document.querySelector('[data-action="open-categories"]'),
   genresContainer: document.querySelector('.genres'),
   genresItem: document.querySelector('.genres-item'),
+  catBtn: document.querySelector('.categories-button'),
   //sliderContainer:document.querySelector('.swiper-wrapper');
 
   header: document.querySelector('.page-header--home'),
